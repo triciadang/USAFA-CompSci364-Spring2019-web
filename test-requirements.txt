@@ -1,0 +1,7 @@
+flake8  # MIT
+flake8-import-order  # LGPL-3.0
+future  # MIT
+pytest  # MIT
+pytest-selenium  # Mozilla Public License 2.0
+selenium  # Apache 2.0
+six  # MIT

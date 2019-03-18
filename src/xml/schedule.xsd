@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="personal">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" />
+      <xs:element name="squadron">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+            <xs:maxInclusive value="40" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="year" type="xs:integer" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="class">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" />
+      <xs:element name="period">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="M[1-46-7]|T[1-7]" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="score">
+        <xs:simpleType>
+          <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="100" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" use="required" />
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="classes">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="class" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="schedule">
+  <xs:complexType>
+    <xs:all>
+      <xs:element ref="personal" />
+      <xs:element ref="classes" />
+    </xs:all>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

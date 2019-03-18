@@ -1,0 +1,16 @@
+dist: xenial
+
+language: python
+python:
+  - "3.6"
+
+before_install:
+  - sudo apt-get install --yes chromium-chromedriver libxml2-utils
+install:
+  - pip install tox-travis
+
+script:
+  - php --docroot src/web/ --server localhost:8000 >& /tmp/server.log &
+  - tox -e xml
+  - tox -e py36
+  - killall php
