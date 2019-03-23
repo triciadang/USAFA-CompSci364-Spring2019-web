@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+  <personal>
+	<name>Tricia Dang</name>
+	<squadron>31</squadron>
+	<year>2020</year>  
+  </personal>
+  
+	<classes>
+	<class id="Comp Sci 483">
+		<name>Operating Systems</name>
+		<period>M3</period>
+		<score>98.39</score>
+	</class>
+
+	<class id="Comp Sci 364">
+		<name>Information Storage and Retrieval</name>
+		<period>M4</period>
+		<score>97.87</score>
+	</class>
+	
+	<class id="Comp Sci 380">
+		<name>Algorithms</name>
+		<period>T2</period>
+		<score>99.75</score>
+	</class>
+	
+	<class id="ECE 315">
+		<name>Information Storage and Retrieval</name>
+		<period>T3</period>
+		<score>95.33</score>
+	</class>
+	
+	<class id="Comp Sci 495">
+		<name>Cyber Defense</name>
+		<period>T5</period>
+		<score>97.00</score>
+	</class>
+	
+	</classes>
+
+</schedule>
