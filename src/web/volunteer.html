@@ -79,7 +79,7 @@
 
 			// email address must be letters, digits, underscores, and periods with one @
 				var emailAddressValue = document.forms["volunteer_info"]["emailAddress"].value;
-				myRegExp = new RegExp("[^[a-zA-Z0-9-_.]+@[a-zA-Z0-9_.]+]{1,50}$");
+				myRegExp = new RegExp("[^[a-zA-Z0-9_.\-]+@[a-zA-Z0-9_.]+]{1,50}$");
 				
 			// Test our receivedValue string against the regular expression
 				validInputValue = myRegExp.test(emailAddressValue);  
