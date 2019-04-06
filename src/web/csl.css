@@ -17,10 +17,11 @@ body
 
 #csl_navigation
 {
-	background-color: #C1C1C1;
+	background-color: white;
 	color: black;
 	font-size: 14pt;
 	font-weight: medium
+	padding: 5px
 }
 
 #csl_page_title
