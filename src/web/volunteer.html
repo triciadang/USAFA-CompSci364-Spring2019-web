@@ -42,7 +42,7 @@
 			// first names must be letter, spaces, and hyphens and 50 or fewer characters
 				var validInputValue = new Boolean(true);
 				var firstNameValue = document.forms["volunteer_info"]["firstName"].value;
-				var myRegExp = new RegExp("^[a-zA-Z -]{1,50}$");
+				var myRegExp = new RegExp("^[a-zA-Z \-]{1,50}$");
 				
 			// Test our receivedValue string against the regular expression
 				validInputValue = myRegExp.test(firstNameValue);  
