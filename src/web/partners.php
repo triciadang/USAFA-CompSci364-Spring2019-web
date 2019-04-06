@@ -36,7 +36,7 @@
            </div>
            <center>
            <table border="1" cellpadding="4">
-             <tr><th>Service Partner Name</th><th>Location</th><th>Phone</th></tr>
+             <th>Service Partner Name</th><th>Location</th><th>Phone</th>
 
 <!-- Note the use of <?php ?> to embed PHP commands 
      and connect to the database and retrieve the info -->
@@ -69,7 +69,7 @@
              for ($i=0; $i < $num_results; $i++) 
              {
                $r= $results->fetch_assoc();
-               print '<th><td>'.$r['partnerName'].'</td><td>'.$r['partnerLocation'].'</td><td>'.$r['partnerPhone'].' </td></th>';
+               print '<tr><td>'.$r['partnerName'].'</td><td>'.$r['partnerLocation'].'</td><td>'.$r['partnerPhone'].' </td></tr>';
              }
 
              // deallocate memory for the results and close the database connection

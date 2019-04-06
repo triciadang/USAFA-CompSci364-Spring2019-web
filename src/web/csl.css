@@ -7,6 +7,10 @@ body
 	font-family: Arial
 }
 
+a {
+	text-decoration: none;
+}
+
 #csl_site_title
 {
 	background-color: mediumpurple;
@@ -27,8 +31,8 @@ body
 
 #csl_navigation:hover {
 	background-color: pink;
+	transition: all ease-in-out .3s;
 }
-
 #csl_page_title
 {
 	color: black;
