@@ -24,15 +24,15 @@
        <tr>
 	 <td colspan="4"><div id="csl_site_title" ><br /><center>Cadet Service Learning (CSL) Program</center><br /></div></td>
        </tr>
-       <tr>
-         <td width="33%"><center><div id="csl_navigation"><a href="index.html">Introduction</a></div></center></td>
-         <td width="33%"><center><div id="csl_navigation"><a href="partners.php">Service Partners</a></div></center></td>
-         <td width="33%"><center><div id="csl_navigation"><a href="volunteer.html">Information Form</a></div></center></td>
-       </tr>
+		<tr>
+			<td width="33%"><center><div id="csl_navigation"><a href="index.html">CSL Intro</a></div></center></td>
+			<td width="33%"><center><div id="csl_navigation"><a href="partners.php">Service Partners</a></div></center></td>
+			<td width="33%"><center><div id="csl_navigation"><a href="volunteer.html">Volunteer Info</a></div></center></td>
+		</tr>
        <tr>
 	 <td colspan="4">
            <div id="csl_page_title">
-             <br /><p><center>CSL Service Partners (SQL Retrieval Demo)</center><p>
+             <br /><p><center>CSL Service Partners</center><p>
            </div>
            <center>
            <table border="1" cellpadding="4">
