@@ -36,48 +36,16 @@
            </div>
            <center>
            <table border="1" cellpadding="4">
-             <th>Service Partner Name</th><th>Location</th><th>Phone</th>
+				
+            <tr><th>Service Partner Name</th><th>Location</th><th>Phone</th></tr>
+			<tr><td>Habitat for Humanity</td><td>2802 N. Prospect St., Colorado Springs, CO 80907</td><td>(719) 475-7800</td></tr>
+			<tr><td>Salvation Army Soup Kitchen</td><td>908 Yuma St., Colorado Springs, CO 80909</td><td>(719) 636-3891</td></tr>
+			<tr><td>Big Brothers Big Sisters of Colorado</td><td>111 S. Tejon St., Suite 302, Colorado Springs, CO 80903</td><td>(719) 633-2443</td></tr>
+			<tr><td>Keep Colorado Springs Beautiful Inc.</td><td>20 E. Rio Grande St., Colorado Springs, CO 80903</td><td>(719) 577-9111</td></tr>
+			
 
-<!-- Note the use of <?php ?> to embed PHP commands 
-     and connect to the database and retrieve the info -->
 
-             <?php 
 
-             // open connection to the database on LOCALHOST with 
-             // userid of 'root', password '', and database 'csl'
-
-             @ $db = new mysqli('LOCALHOST', 'root', '', 'csl');
-
-             // Check if there were error and if so, report and exit
-
-             if (mysqli_connect_errno()) 
-             { 
-               echo 'ERROR: Could not connect to database.  Error is '.mysqli_connect_error();
-               exit;
-             }
-
-             // run the SQL query to retrieve the service partner info
-
-             $results = $db->query('SELECT * FROM PARTNERS');
-
-             // determine how many rows were returned
-
-             $num_results = $results->num_rows;
-
-             // loop through each row building the table rows and data columns
-
-             for ($i=0; $i < $num_results; $i++) 
-             {
-               $r= $results->fetch_assoc();
-               print '<tr><td>'.$r['partnerName'].'</td><td>'.$r['partnerLocation'].'</td><td>'.$r['partnerPhone'].' </td></tr>';
-             }
-
-             // deallocate memory for the results and close the database connection
-
-             $results->free();
-             $db->close();
-
-           ?>
            </table>
            </center>
            <br />
