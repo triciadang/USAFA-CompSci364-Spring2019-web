@@ -37,7 +37,7 @@
            <center>
            <table border="1" cellpadding="4">
 				
-            <tr><th>Service Partner Name</th><th>Location</th><th>Phone</th></tr>
+            <tr><th>Name</th><th>Location</th><th>Phone</th></tr>
 			<tr><td>Habitat for Humanity</td><td>2802 N. Prospect St., Colorado Springs, CO 80907</td><td>(719) 475-7800</td></tr>
 			<tr><td>Salvation Army Soup Kitchen</td><td>908 Yuma St., Colorado Springs, CO 80909</td><td>(719) 636-3891</td></tr>
 			<tr><td>Big Brothers Big Sisters of Colorado</td><td>111 S. Tejon St., Suite 302, Colorado Springs, CO 80903</td><td>(719) 633-2443</td></tr>
