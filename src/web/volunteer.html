@@ -85,14 +85,14 @@
 				validInputValue = myRegExp.test(emailAddressValue);  
 				
 			// Update form feedback
-				if (validInputValue) 
+				if (validInputValue && emailAddressValue.length <= 50) 
 				{
 					document.getElementById('emailAddressFeedback').innerHTML = "";
 				}
 				else
 				{
 					validForm = false;
-					displayError("Email address must be letters, digits, underscores, and periods with one @");
+					displayError("Email address must be letters, digits, underscores, and periods with one @ and at most 50 characters.");
 					document.getElementById('emailAddressFeedback').innerHTML = "Error #" + errorCount;
 				}
 
