@@ -9,6 +9,9 @@
      body {font-family: Arial; color: black; }
      h1 {background-color: blue; color: white; }
    </style>
+   
+   <script type="text/javascript" src="script.js"></script>
+   
  </head>
 
  <body>

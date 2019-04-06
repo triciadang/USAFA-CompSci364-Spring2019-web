@@ -49,3 +49,5 @@ div.appendChild(a);
 
 var body = document.getElementsByTagName('body')[0];
 body.appendChild(div);
+
+

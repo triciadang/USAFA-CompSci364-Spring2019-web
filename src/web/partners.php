@@ -13,6 +13,8 @@
     <style type="text/css">
       .formError { color: red; font-weight: bold }
     </style>
+	
+	<script type="text/javascript" src="script.js"></script>
   </head>
 
  <body>
@@ -22,10 +24,9 @@
 	 <td colspan="4"><div id="csl_site_title" ><br /><center>Cadet Service Learning (CSL) Program</center><br /></div></td>
        </tr>
        <tr>
-         <td width="25%"><center><div id="csl_navigation"><a href="pex.html">Introduction</a></div></center></td>
-         <td width="25%"><center><div id="csl_navigation"><a href="partners.php">Service Partners</a></div></center></td>
-         <td width="25%"><center><div id="csl_navigation"><a href="volunteer.html">Information Form</a></div></center></td>
-         <td width="25%"><center><div id="csl_navigation"><a href="admin.php">Administration</a></div></center></td>
+         <td width="33%"><center><div id="csl_navigation"><a href="index.html">Introduction</a></div></center></td>
+         <td width="33%"><center><div id="csl_navigation"><a href="partners.php">Service Partners</a></div></center></td>
+         <td width="33%"><center><div id="csl_navigation"><a href="volunteer.html">Information Form</a></div></center></td>
        </tr>
        <tr>
 	 <td colspan="4">
