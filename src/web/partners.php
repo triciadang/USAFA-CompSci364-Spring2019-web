@@ -1,7 +1,8 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 
-<!-- partners.php - 3/22/2011 - Steve Hadfield -->
+<!-- partners.php-->
 <!-- Shows how to retrieve data with SQL using PHP -->
 
 <html xml:lang="en">
@@ -68,7 +69,7 @@
              for ($i=0; $i < $num_results; $i++) 
              {
                $r= $results->fetch_assoc();
-               print '<tr><td>'.$r['partnerName'].'</td><td>'.$r['partnerLocation'].'</td><td>'.$r['partnerPhone'].' </td></tr>';
+               print '<th><td>'.$r['partnerName'].'</td><td>'.$r['partnerLocation'].'</td><td>'.$r['partnerPhone'].' </td></th>';
              }
 
              // deallocate memory for the results and close the database connection

@@ -1,6 +1,4 @@
-/* csl.css */
-/* for CS 364 PEX2 */
-/* author:  Steve Hadfield, 3/14/2011 */
+/* csl-alt.css */
 
 body
 {
@@ -19,10 +17,16 @@ body
 
 #csl_navigation
 {
-	background-color: #2B65EC;
-	color: blue;
+	background-color: white;
+	color: black;
 	font-size: 14pt;
-	font-weight: medium
+	font-weight: medium;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#csl_navigation:hover {
+	background-color: Khaki;
 }
 
 #csl_page_title

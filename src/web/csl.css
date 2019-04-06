@@ -20,8 +20,13 @@ body
 	background-color: white;
 	color: black;
 	font-size: 14pt;
-	font-weight: medium
-	padding: 5px
+	font-weight: medium;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#csl_navigation:hover {
+	background-color: pink;
 }
 
 #csl_page_title
